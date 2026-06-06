@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+
+	printf("\t\t[ VAMOS DESCOBRIR SE O NUMERO E PAR OU IMPAR]\n\n");
+	
+int numero;
+	printf("Digite um numero:");
+	scanf("%d",&numero);
+if (numero % 2 == 0){
+	printf("\n %d - este numero e par ", numero);
+}
+else {
+	printf("\n %d - este numero e impar ", numero);
+}
+
+	
+	return 0;
+
+}
