@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+
+int idade, nascido , anoatual ;
+
+printf(" \t>>> VAMOS DESCOBRIR O ANO EM QUE VOCE NASCEU <<<\n\n ");
+
+printf("Em Qual ano nos estamos: ? ");
+scanf("%d", &anoatual);
+
+printf(" Qual a sua idade: ? ");
+scanf("%d", &idade);
+
+nascido = anoatual - idade;
+
+if ( idade >= 18){
+	printf(" voce nasce em %d , voce  e adulto", nascido);
+}
+
+else if (idade >= 13){
+	printf(" voce nasceu em %d , voce e adolecente", nascido);
+}
+
+else { 
+printf (" voce nasceu em %d , voce e crianca", nascido);
+}
+	
+    return 0;
+}
