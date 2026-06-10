@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+	
+	int numero = 20;
+	int soma = 0; 
+	int quantidade = 0;
+	
+	while (numero >= 1){
+		printf("%d\n", numero);
+		quantidade += 1;
+		soma += numero;
+		
+	numero -= 1;	
+	}
+	
+	printf(" total de numeros %d\n", quantidade);
+	printf(" soma dos numero %d", soma);
+	
+	return 0;
+}
